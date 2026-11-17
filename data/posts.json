@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "meta-tags-en-nextjs",
+    "title": "Meta tags en Next.js: guía práctica para principiantes",
+    "description": "Aprende a definir title, description y Open Graph en cada página de tu proyecto Next.js.",
+    "date": "2026-11-02",
+    "readTime": "5 min",
+    "content": "Los meta tags le dicen a Google y a las redes sociales de qué trata tu página. Un buen título y una descripción clara pueden aumentar los clics que recibes en los resultados de búsqueda.\n\nEn Next.js con Pages Router usamos el componente Head de next/head. Todo lo que pongas dentro se inserta en la etiqueta head del HTML.\n\nLo importante es que cada página tenga su propio título y descripción. Evita repetir el mismo texto en todo el sitio."
+  },
+  {
+    "slug": "sitemap-dinamico",
+    "title": "Cómo crear un sitemap dinámico con una API Route",
+    "description": "Genera un sitemap.xml que se actualiza solo cada vez que agregas una publicación nueva.",
+    "date": "2026-11-05",
+    "readTime": "6 min",
+    "content": "Un sitemap es un archivo XML que lista las páginas de tu sitio. Google lo usa para descubrir contenido nuevo más rápido.\n\nSi tu sitio tiene publicaciones guardadas en una base de datos, no conviene escribir cada ruta a mano. Con una API Route leemos los datos y armamos el XML automáticamente.\n\nDespués de crearlo, agrega la dirección del sitemap en robots.txt y envíalo desde Google Search Console."
+  },
+  {
+    "slug": "optimizar-imagenes",
+    "title": "Optimiza tus imágenes con el componente next/image",
+    "description": "Reduce el peso de tus imágenes y mejora el tiempo de carga con formatos modernos como WebP.",
+    "date": "2026-11-08",
+    "readTime": "4 min",
+    "content": "Las imágenes suelen ser lo que más pesa en una página web. Si no se optimizan, la carga se vuelve lenta y el posicionamiento en Google baja.\n\nEl componente Image de Next.js convierte las imágenes a formatos modernos, ajusta su tamaño según el dispositivo y las carga de forma diferida.\n\nPara la imagen principal de la página usa la propiedad priority, así se carga de inmediato."
+  },
+  {
+    "slug": "lazy-loading-con-dynamic",
+    "title": "Lazy loading en Next.js con next/dynamic",
+    "description": "Carga componentes pesados solo cuando se necesitan y acelera la primera visita a tu web.",
+    "date": "2026-11-11",
+    "readTime": "4 min",
+    "content": "No todo el contenido de una página se necesita al mismo tiempo. Con lazy loading, algunos componentes se descargan después de que la página principal ya cargó.\n\nNext.js ofrece la función dynamic para hacerlo. Solo debes indicar qué componente quieres cargar de forma diferida.\n\nEsto reduce el JavaScript inicial y mejora la experiencia en celulares y conexiones lentas."
+  },
+  {
+    "slug": "fuentes-optimizadas",
+    "title": "Fuentes web optimizadas con next/font",
+    "description": "Usa Google Fonts sin afectar el rendimiento: next/font descarga y aloja las fuentes por ti.",
+    "date": "2026-11-14",
+    "readTime": "3 min",
+    "content": "Cargar fuentes desde servidores externos puede retrasar el texto de tu página y causar saltos visuales.\n\nCon next/font, Next.js descarga la fuente durante la compilación y la sirve desde tu propio dominio. No hay peticiones extra a Google cuando alguien visita tu sitio.\n\nSolo elige la fuente y los subsets que necesitas, por ejemplo latin."
+  }
+]

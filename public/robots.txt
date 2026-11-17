@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Cambia mi-sitio.com por tu dominio real cuando publiques el sitio
+Sitemap: https://mi-sitio.com/api/sitemap
