@@ -20,6 +20,7 @@ export default function Seo({ title, description, path = "/", type = "website" }
       <meta property="og:url" content={url} />
       <meta property="og:type" content={type} />
       <meta property="og:site_name" content={SITE_NAME} />
+      <meta name="google-site-verification" content="-dkYT47ZdQAWTq1vWgkIOuseJFbQPu25aUEb_hn1RtQ" />
 
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
